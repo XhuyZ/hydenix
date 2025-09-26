@@ -10,7 +10,7 @@
 ```bash
 # create a new directory and initialize the template
 mkdir hydenix && cd hydenix
-nix flake init -t github:richen604/hydenix
+nix --experimental-features 'nix-command flakes' flake init -t github:XhuyZ/hydenix
 ```
 
 ## 2. configure your system
